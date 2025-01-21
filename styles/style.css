@@ -171,7 +171,6 @@
 .card__buttons-wrap {
   display: flex;
   align-items: center;
-  gap: 5px;
   align-self: flex-end;
   margin: 0 25px 25px;
 }
@@ -292,6 +291,10 @@
 @media (width <= 376px) {
   .header__logo {
     margin-block-start: 120px;
+  }
+
+  .header__name {
+    margin-block-end: 120px;
   }
 
   .card__image-label {
